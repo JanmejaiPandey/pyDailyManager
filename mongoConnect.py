@@ -2,7 +2,8 @@ from pymongo import MongoClient
 import os
 import time
 
-client = MongoClient('mongodb+srv://try:pass@clusterdailymanager-f440g.mongodb.net/test?retryWrites=true&w=majority')
+
+client = MongoClient('Your Mongo DB Connection')
 
 
 class usersDB:
